@@ -1,0 +1,52 @@
+:root{
+    --primary-color: #353535;
+    --secondary-color: #222324;
+}
+
+body{
+    background-color: var(--primary-color);
+    background-image: url(../img/pattern2.png);
+    background-attachment: fixed;
+}
+
+a{
+    color: #6e9ccc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.website-header{
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.104);
+}
+
+.website-footer{
+    background-color: var(--secondary-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.104);
+}
+
+.hr{
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.hr.hr-purple{
+    border-top: 1px solid #866ac3;
+}
+
+.footer-list{
+    padding: 0;
+}
+
+.reg-area{
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    border-radius: 5px;
+}
+
+.footer-list{
+    padding: 0;
+    list-style-type: none;
+}
+.footer-list li{
+    padding: 1px;
+}
